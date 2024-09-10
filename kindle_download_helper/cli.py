@@ -182,6 +182,14 @@ def main():
         help="if your account is an amazon.co.uk account",
     )
     parser.add_argument(
+        "--au",
+        dest="domain",
+        action="store_const",
+        const="au",
+        default="com",
+        help="if your account is an amazon.com.au account",
+    )
+    parser.add_argument(
         "--resume-from",
         dest="index",
         type=int,

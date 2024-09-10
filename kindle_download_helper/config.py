@@ -43,6 +43,13 @@ KINDLE_URLS = {
         "insights": "https://www.amazon.co.uk/kindle/reading/insights/data",
         "book_url": "https://www.amazon.co.uk/dp/{book_id}",
     },
+    "au": {
+        "bookall": "https://www.amazon.com.au/hz/mycd/myx#/home/content/booksAll",
+        "download": "https://cde-ta-g7g.amazon.com/FionaCDEServiceEngine/FSDownloadContent?type={}&key={}&fsn={}&device_type={}&customerId={}",
+        "payload": "https://www.amazon.com.au/hz/mycd/ajax",
+        "insights": "https://www.amazon.com.au/kindle/reading/insights/data",
+        "book_url": "https://www.amazon.com.au/dp/{book_id}",
+    },
     "de": {
         "bookall": "https://www.amazon.de/hz/mycd/myx#/home/content/booksAll",
         "download": "https://cde-ta-g7g.amazon.com/FionaCDEServiceEngine/FSDownloadContent?type={}&key={}&fsn={}&device_type={}&customerId={}",
